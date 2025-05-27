@@ -44,5 +44,12 @@ public class Student {
 
         Student student2 = new Student("Shonu", "21-03-2003");
         student2.displayStudentInfo();
+
+        StudentCourses courses = new StudentCourses();
+        courses.addCourse(1, "Mathematics", 85);
+        courses.addCourse(1, "Physics", 78);
+        courses.addCourse(2, "Data Structures", 91);
+        courses.displayCourses();
+
     }
 }
